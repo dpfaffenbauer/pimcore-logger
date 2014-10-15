@@ -1,0 +1,6 @@
+"logger_installed_successfully","Logger plugin installed successfully. Please don't forget to reload pimcore!"
+"logger_install_failed","Could not install Logger plugin. See log for more details."
+"logger_uninstalled_successfully","Successfully uninstalled Logger plugin. Please don't forget to reload pimcore!"
+"logger_uninstall_failed","Could not uninstall Logger plugin. See log for more details."
+"Log","Log"
+"Logger","Logger"

@@ -1,0 +1,19 @@
+{
+    "name": "pfaffenbauer/logger",
+    "type": "pimcore-plugin",
+    "license": "Simple BSD",
+    "description": "A Simple Logger Plugin",
+    "keywords": ["pimcore","log","logger"],
+    "homepage": "https://github.com/dpfaffenbauer/pimcore-logger",
+    "authors": [
+        {
+            "name": "Dominik Pfaffenbauer",
+            "email": "dominik@pfaffenbauer.at",
+            "homepage": "http://www.pfaffenbauer.at/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      "pimcore/installer-plugin": ">=1"
+    }
+}  

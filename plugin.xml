@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+    <plugin>
+
+        <!-- the plugin name [A-Za-z_] -->
+        <pluginName>Logger</pluginName>
+
+        <!-- a short description -->
+        <pluginDescription><![CDATA[Enables in Application Logging]]></pluginDescription>
+
+        <!-- meta data -->
+        <pluginVersion>0.1</pluginVersion>
+        <pluginRevision>1</pluginRevision>
+        <pluginBuildTimestamp>1405948151</pluginBuildTimestamp>
+
+        <!-- put in the URL for the plugin configuration eg. /plugin/Logger/admin/index -->
+        <pluginIframeSrc></pluginIframeSrc>
+
+        <!-- className of the plugin which extends Pimcore_API_Plugin_Abstract-->
+        <pluginClassName>Logger_Plugin</pluginClassName>
+
+        <!-- include paths relative to plugin-directory -->
+        <pluginIncludePaths>
+            <path>/Logger/lib</path>
+        </pluginIncludePaths>
+
+        <!-- namespaces to register with autoloader-->
+        <pluginNamespaces>
+            <namespace>Logger</namespace>
+        </pluginNamespaces>
+
+        <!-- js files with path relative to plugin-directory -->
+        <pluginJsPaths>
+            <path>/plugins/Logger/static/js/startup.js</path>
+            <path>/plugins/Logger/static/js/logger/panel.js</path>
+        </pluginJsPaths>
+
+        <!-- css files with path relative to plugin-directory -->
+        <pluginCssPaths>
+            <path>/plugins/Logger/static/css/logger.css</path>
+        </pluginCssPaths>
+    </plugin>
+</zend-config>

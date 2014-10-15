@@ -1,0 +1,8 @@
+
+/*#pimcore_panel_toolbar {
+    background: red !important;
+}*/
+
+.logger_icon {
+    background: url(/plugins/Logger/static/img/book_key.png) left center no-repeat !important;
+}
